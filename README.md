@@ -4,15 +4,15 @@ Docker ubuntu14-apache-php
 Dependencies
 ------------
 
-- ushios/ubuntu14
+- [ushios/ubuntu14](https://registry.hub.docker.com/u/ushios/ubuntu14/)
 
 Installed applications
 -----------------------
 
-- Ubuntu 14.04
-- openssh-server
+- [ushios/ubuntu14](https://registry.hub.docker.com/u/ushios/ubuntu14/)
 - apache2
 - php 5.6
+
 
 Usage
 -----
