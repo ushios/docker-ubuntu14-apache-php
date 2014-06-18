@@ -1,4 +1,4 @@
-Docker ubuntu14-apache2
+Docker ubuntu14-apache-php
 ==================
 
 Dependencies
@@ -10,9 +10,11 @@ Installed applications
 -----------------------
 
 - Ubuntu 14.04
+- openssh-server
 - apache2
+- php 5.6
 
 Usage
 -----
 
-    docker run -d -p 80:80 ushios/ubuntu14-apache2
+    docker run -d -p 80:80 -p 22:22 ushios/ubuntu14-apache-php
